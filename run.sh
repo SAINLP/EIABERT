@@ -1,10 +1,9 @@
 #!/bin/bash
 strB='ro'
 export epoch=10
-export CUDA_VISIBLE_DEVICES=0
 
 
-data='STS16' #data_name
+data='STS-B' #data_name
 name='_sim' #'_large', '_sim', '_ro_large', 'ro_sim'
 task=$data$name
 if [[ $task =~ $strB ]]
