@@ -2,6 +2,8 @@
 Code for "Enhancing Inter-Sentence Attention for Semantic Textual Similarity"
 
 ## Getting Started
+We used `python=3.8`, `cudatoolkit=11.1`, `transformers==4.11.3`, `torch==1.11.0`
+
 Data Preprocessing：
 ```
 python pre-dataset.py
